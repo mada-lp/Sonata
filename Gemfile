@@ -36,7 +36,13 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 # gem CarrierWave for file uploads
 gem 'carrierwave', '~> 1.0'
-
+# gem pdf-reader for file uploads
+gem 'pdf-reader'
+gem 'docsplit'
+#faker
+gem 'faker'
+#simple form
+gem 'simple_form'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri

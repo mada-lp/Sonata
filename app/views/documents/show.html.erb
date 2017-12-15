@@ -1,14 +1,14 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
+  <strong>Título:</strong>
   <%= @document.title %>
 </p>
 
 <p>
-  <strong>Content:</strong>
+  <strong>Conteúdo:</strong>
+  <%= @document.file %>
   <%= @document.content %>
 </p>
 
-<%= link_to 'Edit', edit_document_path(@document) %> |
-<%= link_to 'Back', documents_path %>
+<%= link_to 'Voltar', root_path %>
